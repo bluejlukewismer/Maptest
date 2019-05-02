@@ -4,7 +4,9 @@ public class MapTester
 {
     // instance variables - replace the example below with your own
     private HashMap phoneBook = new HashMap();
-
+    private String name;
+    private String number;
+    
     
     public MapTester()
     {
