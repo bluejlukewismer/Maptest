@@ -1,13 +1,10 @@
 import java.util.HashMap;
-//heyhey
 public class MapTester
 {
     // instance variables - replace the example below with your own
     private HashMap phoneBook = new HashMap();
     private String name;
     private String number;
-    
-    
     public MapTester()
     {
         phoneBook.put("Luke","1221");
@@ -17,10 +14,12 @@ public class MapTester
     {
         phoneBook.put(name, number);
     }
+    
     public String lookupNumber(String name)
     {
         return (String) phoneBook.get(name);
         
     }
+
 
 }
